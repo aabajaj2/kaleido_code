@@ -25,7 +25,6 @@ def get_value(key):
 
 test = ['1', '2', '3', '4', '6', '1', '2', '3', '33', '27', '67', '10009', '10009']
 for t in test:
-    print("Key:", t, "Value:", get_value(t))
+    print("Test Integer:", t, "Value:", get_value(t))
 # print(generate_random_id())
-
 # print(keyValueMap)
