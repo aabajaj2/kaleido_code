@@ -4,3 +4,8 @@
 * The first character must be a letter, but not a vowel.
 * the remaining characters can be letters or numbers.
 * For one run of the program, each integer is mapped to unique value, for testing more integers, we can modify the `test` array
+
+Build & Run the code:
+1. Clone the repository 
+2. Modify the `test` array according to your needs 
+3. Run `python generate_uid.py`
