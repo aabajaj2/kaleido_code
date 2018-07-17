@@ -18,8 +18,10 @@ def get_value(key):
         value = get_random_string()
         if value not in listOfUIDs:
             keyValueDict[key] = value
+            listOfUIDs.add(value)
         else:
             newvalue = generate_random_id()
+            listOfUIDs.add(newvalue)
             keyValueDict[key] = newvalue
     return value
 
